@@ -1,0 +1,30 @@
+{
+  "name": "vue-icon-adapter",
+  "version": "1.0.0",
+  "description": "面向Vue的icon组件库",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "pnpm tsc",
+    "tsc": "tsc -p . --outDir ./dist"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^4.9.5",
+    "typescript": "^5.3.3",
+    "vue": "^3.4.6"
+  },
+  "dependencies": {
+    "clannad-icon": "^0.0.1"
+  }
+}

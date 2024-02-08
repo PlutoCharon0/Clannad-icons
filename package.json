@@ -1,0 +1,22 @@
+{
+  "name": "clannad-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:generate": "cd ./packages/clannad-icon/ &&  pnpm build:generate",
+    "generate": "cd ./packages/clannad-icon/ &&  pnpm generate",
+    "start": "cd ./packages/clannad-icon/ &&  pnpm start",
+    "build": "cd ./packages/clannad-icon/ &&  pnpm build && cd ../vue-icon-adapter/ && pnpm build && cd ../react-icon-adapter/ && pnpm build ",
+    "dev-vue": "cd vue-playground && pnpm dev",
+    "dev-react": "cd react-playground && pnpm dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,8 @@
+# 配置工作空间
+packages:
+  # 具体工作目录
+  - packages/*
+  # vue组件示例测试目录
+  - vue-playground
+  # react组件示例测试目录
+  - react-playground
