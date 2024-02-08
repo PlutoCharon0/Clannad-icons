@@ -1,4 +1,4 @@
-﻿# Clannad-icons
+﻿# Clannad-icons（实践版）
 
 * 跨框架图标组件库实践
 * 主要技术栈 stencil
